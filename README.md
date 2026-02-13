@@ -7,6 +7,7 @@ Full-stack Sales Dashboard — React + TypeScript (frontend) and Node.js + Expre
 ## Quick Start
 
 **Terminal 1 — Backend**
+
 ```bash
 cd backend
 npm install
@@ -15,6 +16,7 @@ npm run dev
 ```
 
 **Terminal 2 — Frontend**
+
 ```bash
 cd frontend
 npm install
@@ -85,12 +87,12 @@ sales-dashboard/
 
 ## API Endpoints
 
-| Method | Endpoint | Query Params | Description |
-|--------|----------|-------------|-------------|
-| GET | `/api/states` | — | List of all states |
-| GET | `/api/date-range` | `state` | Min/max order date for a state |
-| GET | `/api/dashboard` | `state`, `fromDate`, `toDate` | All KPI + chart data |
-| GET | `/health` | — | Health check |
+| Method | Endpoint          | Query Params                  | Description                    |
+| ------ | ----------------- | ----------------------------- | ------------------------------ |
+| GET    | `/api/states`     | —                             | List of all states             |
+| GET    | `/api/date-range` | `state`                       | Min/max order date for a state |
+| GET    | `/api/dashboard`  | `state`, `fromDate`, `toDate` | All KPI + chart data           |
+| GET    | `/health`         | —                             | Health check                   |
 
 ---
 
